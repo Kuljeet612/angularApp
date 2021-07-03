@@ -1,3 +1,6 @@
+<div>
+    <app-navbar></app-navbar>
+</div>
 <div id="page-wrap">
     <div id="max-width-column" *ngIf="auth.user | async">
         <app-nav-bar></app-nav-bar>
@@ -9,7 +12,7 @@
     <!--If user is not currently logged in-->
     <div id="max-width-column" *ngIf="!(auth.user | async)">
         <h1>You need to sign in first</h1>
-        <button (click)="signInClicked()">Sign in with Google</button>
+        <button class="btn btn-outline-success" (click)="signInClicked()">Sign in with Google</button>
     </div>
 </div>
 

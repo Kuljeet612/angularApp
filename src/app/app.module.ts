@@ -15,6 +15,7 @@ import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.
 import { ListingDataFormComponent } from './listing-data-form/listing-data-form.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { environment } from 'src/environments/environment';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { environment } from 'src/environments/environment';
     NewListingPageComponent,
     EditListingPageComponent,
     ListingDataFormComponent,
-    NavBarComponent    
+    NavBarComponent,
+    NavbarComponent    
   ],
   imports: [
     BrowserModule,
