@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Listing } from '../types';
 //import { fakeListings } from '../fake-data';
 import { ListingsService } from '../listing.service';
-
+//test
 
 @Component({
   selector: 'app-contact-page',
