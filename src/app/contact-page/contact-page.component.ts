@@ -4,6 +4,7 @@ import { Listing } from '../types';
 //import { fakeListings } from '../fake-data';
 import { ListingsService } from '../listing.service';
 
+
 @Component({
   selector: 'app-contact-page',
   templateUrl: './contact-page.component.html',
